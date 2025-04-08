@@ -21,6 +21,8 @@ public class CarteiraEntity
         UserType = userType;
         SaldoConta = saldoConta;
     }
+    
+    private CarteiraEntity(){}
 
     public void DebitarSaldo(decimal valor)
     {

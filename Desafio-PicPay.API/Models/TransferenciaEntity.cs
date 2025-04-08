@@ -18,4 +18,5 @@ public class TransferenciaEntity
         ReceiverId = receiverId;
         Valor = valor;
     }
+    private TransferenciaEntity(){}
 }
